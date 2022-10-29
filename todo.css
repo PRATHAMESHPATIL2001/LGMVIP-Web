@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: linear-gradient(to right, rgb(70, 121, 126), rgb(114, 134, 138), rgb(110, 140, 157));
+  height: 100vh;
+}
+
+#inputdata {
+
+  text-align: center;
+  justify-content: center;
+}
+
+#input,
+.style {
+  width: 40%;
+  font-size: 25px;
+  margin: 10px;
+  border-radius: 3px;
+}
+
+#outputdata {
+  border: 4px solid rgb(153, 118, 83);
+  width: 30%;
+  margin: 10px;
+  text-align: justify;
+}
+
+#add,
+#delete,
+ {
+  font-size: 25px;
+  font-weight: 190;
+  background-color: rgb(5, 24, 5);
+  cursor: pointer;
+  color: rgb(100, 76, 76);
+  border-radius: 6px;
+}
+
+#delete {
+
+  margin: 2px 3px;
+}
+
+.style {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  border: 2px solid black;
+  width: 30%;
+  margin: 10px auto;
+}
+
+#edit {
+  position: absolute;
+  right: 14%;
+  margin: 2px 3px;
+}
+
+.heading {
+  text-align: center;
+  color: rgb(44, 59, 44);
+}
+
+input[type="text"] {
+  color: rgb(25, 30, 25);
+}
+
+.chaptername {
+  color: rgb(192, 37, 37);
+  font-size: 17px;
+  font-weight: bolder;
+  margin: 3px;
+}
+
+input {
+  border: 2px solid rgb(63, 91, 63);
+  margin: 3px;
+  border-radius: 3px;
+  font-size: 16px;
+}
+#believe{
+  color:rgb(35, 33, 46);
+}
+@media (max-width:240px) {
+  input[type="text"]{
+      width: 18%;
+      font-size: 10px;
+  }
+}
+
+@media (max-width:770px) {
+  .style{
+      width: 55%;
+  
+  }
+  .chaptername{
+      font-size: 14px;
+  }
+  #input{
+      width: 50%;
+  }
+  input[type="text"]{
+      width: 60%;
+      font-size: 15px;
+  }
+  #edit,#delete{
+      width: auto;
+      font-size: 16px;
+  }
+  #edit{
+      margin: 2px 14px;
+  }
+  #add{
+      font-size: 20px;
+      
+  }
+}
+@media (max-width:520px) {
+  #edit{
+      margin: 2px 25px;
+      font-size: 14px;
+
+  }
+  .chaptername{
+      font-size: 13px;
+  }
+  input[type="text"]{
+      width: 50%;
+      font-size: 13px;
+  }
+
+  #delete{
+      font-size: 12px;
+  }
+}
+@media (max-width:43px) {
+  #edit{
+      margin: 3px 35px;
+  }
+  .chaptername{
+      font-size: 11.2px;
+
+  }
+  input[type="text"]{
+      width: 40%;
+      font-size: 11.1px;
+  }
+
+}
+@media (max-width:1200px) {
+  #input{
+      width: 65%;
+  }
+  .style{
+      width: 55%;
+  }
+  .text{
+      width: 68%;
+  }
+  input[type="text"]{
+      width: 90%;
+  }
+}
