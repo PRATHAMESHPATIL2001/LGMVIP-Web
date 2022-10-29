@@ -1,2 +1,0 @@
-LGM-Task 1
-Create a TO DO LIST WEBAPP
